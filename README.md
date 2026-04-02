@@ -123,7 +123,7 @@ pip install langgraph langchain langchain-anthropic anthropic \
 
 ### 1. Clone o repositorio
 ```bash
-git clone https://github.com/SEU_USUARIO/uRBAN.git
+git clone https://github.com/thamiressoouza/ZIGURAT-M5-T2.git
 ```
 
 ### 2. Configure a API Key da Anthropic
@@ -137,7 +137,7 @@ No Google Colab va em Secrets (icone de chave) e adicione:
 O arquivo IFC o notebook faz o download automaticamente via gdown, 
 basta apenas executar a celula:
 ```python
-!gdown ID_DO_ARQUIVO_NO_DRIVE
+!gdown 1UqY3FXceVHn6ndLe9M_wMcTNaiQox57p
 ```
 
 ### 4. Suba os Shapefiles da PBH
@@ -170,31 +170,14 @@ a partir do nome do site no IFC.
 ## Arquivos do repositorio
 ```
 /
-├── Agentic_Conformidade.ipynb      # notebook principal
-├── espirito_santo_507.ifc          # arquivo IFC de input
-├── log_rua_espirito_santo_507.txt  # exemplo de output gerado
-├── README.md                       # este arquivo
-└── shapefiles/
-    ├── ZONEAMENTO_11181.shp
-    ├── ZONEAMENTO_11181.dbf
-    ├── ZONEAMENTO_11181.shx
-    ├── ZONEAMENTO_11181.prj
-    ├── ZONEAMENTO_11181.cst
-    ├── ADE_11181.shp
-    ├── ADE_11181.dbf
-    ├── ADE_11181.shx
-    ├── ADE_11181.prj
-    ├── ADE_11181.cst
-    ├── ADE_SETORES_11181.shp
-    ├── ADE_SETORES_11181.dbf
-    ├── ADE_SETORES_11181.shx
-    ├── ADE_SETORES_11181.prj
-    ├── ADE_SETORES_11181.cst
-    ├── CLASSIFICACAO_VIARIA_11181.shp
-    ├── CLASSIFICACAO_VIARIA_11181.dbf
-    ├── CLASSIFICACAO_VIARIA_11181.shx
-    ├── CLASSIFICACAO_VIARIA_11181.prj
-    └── CLASSIFICACAO_VIARIA_11181.cst
+├── Agentic_Conformidade_uRBAN.ipynb                            # notebook principal
+├── espirito_santo_507.ifc                                      # arquivo IFC de input
+├── log_rua_espirito_santo_507_belo_horizonte_mg.txt            # exemplo de output gerado
+├── README.md                                                   # este arquivo
+├── ADE_11181.zip                                               # shapefile ADE
+├── ADE_SETORES_11181.zip                                       # shapefile ADE Setores
+├── CLASSIFICACAO_VIARIA_11181.zip                              # shapefile Classificacao Viaria
+└── ZONEAMENTO_11181.zip                                        # shapefile Zoneamento
 ```
 
 ---
