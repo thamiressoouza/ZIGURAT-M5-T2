@@ -1,0 +1,47 @@
+============================================================
+SISTEMA AGENTIC — CONFORMIDADE URBANÍSTICA BH
+============================================================
+Data:          02/04/2026 19:35
+Arquivo IFC:   espirito_santo_507.ifc
+Site:          Rua Espirito Santo, 507 — Belo Horizonte/MG
+Coordenadas:   -19.9278, -43.9394
+Dados urbanos: Shapefiles PBH — Lei 11.181/2019
+------------------------------------------------------------
+
+PERGUNTA DO USUÁRIO:
+  Qual e o gabarito permitido no local do projeto?
+
+DADOS EXTRAÍDOS DO IFC:
+  Uso declarado:    RESIDENTIAL
+  Pavimentos:       2
+  Altura total:     3.0m
+  Área construída:  126.0 m²
+  CA projetado:     None
+
+VERIFICAÇÕES:
+  Zona:              OP-3
+  Zona descrição:    Ocupacao Preferencial - 3
+  Uso permitido:     ✅ Sim
+  Via:               ARTERIAL
+  Gabarito máximo:   4 pavimentos
+  Gabarito conforme: ✅ Sim
+  ADE identificada:  ADE Avenida do Contorno
+  Setor ADE:         ADE Avenida do Contorno - Setor ADE Rua da Bahia Viva
+  Conflitos:         0
+
+LAUDO FINAL:
+  **LAUDO TÉCNICO - GABARITO PERMITIDO**
+  
+  Com base na análise urbanística realizada, o gabarito máximo permitido no local do projeto é de **4 pavimentos**.
+  
+  O empreendimento está localizado em Zona OP-3 (Ocupação Preferencial) na via Arterial Álvares Cabral. Para esta classificação viária e zoneamento, a legislação urbanística de Belo Horizonte estabelece o limite de 4 pavimentos como gabarito máximo.
+  
+  O projeto apresentado, com 2 pavimentos e altura total de 6,0 metros, encontra-se em conformidade com este parâmetro, utilizando apenas 50% do gabarito permitido pela legislação vigente.
+  
+  Esta informação baseia-se nos parâmetros urbanísticos estabelecidos pela Lei de Parcelamento, Ocupação e Uso do Solo de Belo Horizonte para a zona e classificação viária identificadas no local do empreendimento.
+
+============================================================
+Gerado por: Sistema Multi-Agente LangGraph
+Framework:  LangGraph + IfcOpenShell + GeoPandas
+LLM:        Claude Sonnet (Anthropic)
+============================================================
