@@ -134,16 +134,17 @@ No Google Colab va em Secrets (icone de chave) e adicione:
 
 ### 3. Baixe o arquivo IFC
 
-O arquivo IFC ja esta disponivel no repositorio.
-O notebook faz o download automaticamente via gdown:
+O arquivo IFC o notebook faz o download automaticamente via gdown, 
+basta apenas executar a celula:
 ```python
 !gdown ID_DO_ARQUIVO_NO_DRIVE
 ```
 
 ### 4. Suba os Shapefiles da PBH
 
-Os 4 Shapefiles ja estao incluidos na pasta /shapefiles deste repositorio.
-Ao executar o notebook no Colab faca o upload dos arquivos quando solicitado.
+Os Shapefiles são baixados automaticamente pelo notebook
+via gdown direto do Google Drive, sem precisar fazer
+upload manual de nada. Basta apenas executar a celula.
 
 > Fonte: Prefeitura de Belo Horizonte — BHMAP
 > Legislacao: Lei 11.181/2019 — Plano Diretor Municipal
